@@ -1,0 +1,498 @@
+// @import 'sprite'
+@import 'variables'
+@import 'reset'
+@import 'grid'
+@import 'elements'
+
+#header
+	#panel
+		padding: 7px 12px
+		background: $color-green-2
+		color: $color-white
+		a
+			color: $color-white
+		.nav
+			position: relative
+			padding-left: 0
+			padding-top: 15px
+			a
+				margin-right: 24px
+				&:last-of-type
+					margin-right: 7px
+				&.select
+					color: #cae78b
+					&.adverts
+						&:after
+							position: absolute
+							content: ''
+							display: block
+							bottom: -20px
+							left: 20px
+							width: 0
+							height: 0
+							border-style: solid
+							border-width: 0 9.5px 9px 9.5px
+							border-color: transparent transparent #f2f2f2 transparent
+			ul.drop-nav-yet
+				display: none
+				right: -210px
+				z-index: 10
+				position: absolute
+				margin: 0
+				width: 288px
+				top: 100%
+				margin-top: 20px
+				li
+					list-style: none
+					&:last-of-type
+						a
+							margin-bottom: 0
+				a
+					display: block
+					padding: 16.5px 13px
+					background: $color-green-3
+					width: 100%
+					border-bottom: 1px solid $color-green-1
+					box-sizing: border-box
+					margin: 0
+
+		.btn, .entry
+			display: inline-block
+		.btns
+			position: relative
+			padding-top: 3px
+			padding-left: 39px
+			.v1
+				margin-right: 45px
+			.v2
+				line-height: 40px
+				i
+					position: relative
+					top: 4px
+					margin-right: 8px
+		.entry
+			float: right
+			display: block
+			position: relative
+			width: 135px
+			padding-top: 0px
+			color: $color-white
+			text-align: left
+			line-height: 25px
+			margin-right: 18px
+			i.icon-other-login
+				float: left
+				margin-right: 11px
+				&.rotate180
+					transform: rotate(0deg)
+			i
+				float: right
+
+			p, span
+				float: left
+			span
+				position: relative
+				display: block
+				// display: none
+				line-height: 20px
+				top: -5px
+			&.lk
+				display: inline-block
+				margin-top: 3px
+				i.icon-other-login
+					margin-top: 3px	
+				i
+					margin-top: -8px
+		.drop-nav-private
+			display: none
+			z-index: 10
+			position: absolute
+			right: 15px
+			margin: 0
+			width: 170px
+			margin-top: 9px
+			li
+				list-style: none
+				&:last-of-type
+					a
+						border-bottom: 0
+			a
+				position: relative
+				display: block
+				padding: 16.5px 13px
+				background: $color-green-3
+				width: 100%
+				border-bottom: 1px solid $color-green-1
+				box-sizing: border-box
+			span
+				float: right
+				display: inline-block
+				border-radius: 20px
+				padding-left: 7px
+				padding-right: 7px
+				min-width: 22px
+				height: 22px
+				line-height: 22px
+				text-align: center
+				box-sizing: border-box
+	#banner
+		min-height: 400px
+		padding-top: 78px
+		padding-bottom: 77px
+		box-sizing: border-box
+		.search
+			background: rgba(0,0,0,.45)
+			padding: 30px
+			width: 1030px
+			margin: 0 auto
+			color: $color-white
+			box-sizing: border-box
+			.title
+				font-size: 32px
+				text-align: center
+				margin-bottom: 17px
+				.b
+					text-transform: uppercase
+
+			.drop-down
+				margin-right: 10px
+				.text
+					border-color: $color-white
+					background: $color-white
+					span
+						color: $color-black
+				.list
+					color: $color-black
+					background: $color-white
+			.btn-group
+				color: $color-black
+				background: $color-white
+				border: none
+				margin-right: 7px
+				> div
+					height: 40px
+					line-height: 40px
+					&.select, &:hover
+						color: $color-white
+						background: $color-green-2
+					&:before, &:after
+						height: 40px
+					&:first-of-type
+						border-radius: 3px 0 0 3px
+					&:last-of-type
+						border-radius: 0 3px 3px 0
+			.input-group
+				color: $color-black
+				input
+					background: $color-white
+					border: none
+				.input
+					&:nth-of-type(1)
+						input
+							border-right: 1px solid #e3e3e3
+
+			.btns
+				margin-top: 30px
+				.col
+					padding: 0 4px 0 0
+				.btn
+					float: right
+					display: inline-block
+					height: 50px
+					line-height: 50px
+					font-size: 18px
+					border-radius: 3px
+					margin-left: 7px
+					&.v1
+						line-height: 46px
+						i
+							position: relative
+							top: 4px
+							margin-right: 5px
+	#adverts-search
+		padding-top: 27px
+		.one
+			padding-bottom: 23px
+			border-bottom: 1px solid #E3E3E3
+			.drop-down, .btn-group, .input-group
+				margin-right: 5px
+			.checkbox
+				margin-left: 25px
+		.two
+			padding-top: 15px
+			padding-bottom: 3px
+			.item
+				margin-bottom: 10px
+			.col
+				&.id1
+					padding-left: 65px
+				&.id2
+					padding-left: 35px
+				&.id3
+					padding-left: 35px
+			p
+				&.left-text, &.right-text
+					display: inline-block
+					
+				&.left-text
+					text-align: right
+					width: 110px
+					margin-right: 5px
+				&.right-text
+					text-align: left
+					width: 15px
+					margin-left: 5px
+		.three
+			padding-top: 15px
+			padding-bottom: 15px
+			border-top: 1px solid #E3E3E3
+			line-height: 50px
+			.left
+				span
+					border-bottom: 1px dotted
+				i
+					margin-right: 9px
+				.btn
+					margin-right: 18px
+				.mt
+					top: 5px
+					// margin-right: 
+			.center
+				.btn
+					height: 50px
+					// padding-left: 44px
+					// padding-right: 44px
+					font-size: 16px
+					// margin-right: 40px
+					width: 306px
+					.b
+						font-size: 14px
+			.right
+				.btn
+					border: 1px solid $color-black
+					border-radius: 3px
+					height: 40px
+					line-height: 38px
+					width: 124px
+					margin-right: 4px
+					i
+						top: 4px
+						margin-right: 4px
+					&.select, &:hover
+						background: #E3E3E3
+						border-color: #E3E3E3
+						color: #888888
+					&.in-list
+						&:hover
+							i
+								@include sprite($list-gray)
+					&.in-map
+						&:hover
+							i
+								@include sprite($placeholder-v4)
+
+#main
+	a
+		border-bottom: 1px solid
+	.main-list
+		padding-top: 52px
+		padding-bottom: 60px
+		.title
+			margin-left: 5px
+			margin-right: 5px
+			line-height: 20px
+		.nav
+			height: 50px
+			line-height: 48px
+			padding-left: 5px
+			padding-right: 5px
+			margin-top: 30px
+			a
+				color: $color-black
+				margin-left: 23px
+				&:first-of-type
+					margin-left: 0
+			.links
+				text-align: right
+				padding-left: 0
+		.list
+			.col
+				margin-top: 25px
+				width: 16.66666666666667%
+				min-height: 235px
+				img
+					margin-bottom: 7px
+				p
+					width: 150px
+					font-size: 12px
+					line-height: 18px
+					&.c-gray-1
+						margin-bottom: 5px
+					&.c-green-1
+						font-size: 14px
+						margin-bottom: 5px
+	.main-blog
+		padding-bottom: 20px
+		img.fll
+			margin-right: 15px
+		img.flr
+			margin-left: 15px
+		.item
+			margin-bottom: 19px
+			line-height: 24px
+			&:first-of-type
+				margin-top: 19px
+		a, p
+			position: relative
+			top: -4px
+	
+	.main-text
+		font-size: 12px
+		padding-bottom: 65px
+		.text
+			h2
+				margin: 30px 0 28px
+			p
+				line-height: 24px
+
+		.bg-gray
+			padding: 25px 20px
+			.selection
+				.drop-down
+					p, .list
+						background: $color-white
+			.sale
+				float: right
+				line-height: 28px
+			.this
+				margin: 15px 0
+			.price
+				width: 270px
+				margin: 0 auto
+				.col
+					width: 33.3333%
+				.c-green-1
+					margin: 7px 0
+
+	.main-links
+		padding-bottom: 75px
+		h2
+			padding-bottom: 14px
+		a
+			color: $color-black
+			margin-right: 5px
+			line-height: 28px
+
+	.right-col
+		.item
+			margin-bottom: 21px
+			img
+				width: 100%
+				margin-top: 4px
+			a
+				display: inline-block
+			a + p
+				margin: 8px 0 4px
+			p + p
+				font-size: 12px
+				line-height: 20px
+	
+	.adverts
+		.title
+			line-height: 36px
+			margin-bottom: 30px
+			.btn
+				width: 100%
+				height: 40px
+				color: $color-blue-1
+				border: 2px solid $color-blue-1
+				border-radius: 3px
+
+		.a-group
+			margin-bottom: 10px
+		.list.left
+			margin-top: 22px
+			.item
+				margin-bottom: 30px
+			.img
+				position: relative
+				img
+					display: block
+					position: relative
+					width: 100%
+					z-index: -1
+				.abs
+					position: absolute
+					bottom: 10px
+					width: 100%
+					text-align: center
+					span
+						display: inline-block
+						background: rgba(0,0,0,.65)
+						color: $color-white
+						height: 30px
+						line-height: 30px
+						padding: 0 7px
+						font-weight: bold
+						border-radius: 3px
+						&.map
+							position: relative
+							top: 2px
+							margin-left: 7px
+							margin-right: 12px
+					i
+						top: 3px
+			.content
+				position: relative
+				.c-green-1, .link
+					font-size: 18px
+				.c-green-1 + .icon
+					position: absolute
+					top: 0
+					right: 15px
+					cursor: pointer
+				.link
+					display: inline-block
+					margin-top: 13px
+					margin-bottom: 13px
+				.data
+					margin-bottom: 13px
+				.desc
+					margin-bottom: 13px
+					font-size: 12px
+				span
+					display: inline-block
+					font-size: 12px
+				.address
+					display: inline-block
+					font-size: 12px
+					width: 57%
+				.area
+					margin-right: 10px
+
+
+#footer
+	border-top: 1px solid #E3E3E3
+	padding-top: 40px
+	padding-bottom: 40px
+	.copy
+		p
+			margin-bottom: 20px
+
+	.nav
+		position: relative
+		line-height: 28px
+		margin-top: -5px
+		a
+			border-bottom: 1px solid
+			margin-right: 4px
+			&:nth-of-type(5)
+				margin-right: 0
+	.apps
+		padding-left: 0
+		padding-right: 0
+		margin-left: -15px
+		width: 300px
+		a
+			&:first-of-type
+				margin-right: 2px

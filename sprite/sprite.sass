@@ -1,0 +1,611 @@
+/*
+  SASS variables are information about icon's compiled state, stored under its original file name
+
+  .icon-home
+    width: $icon-home-width
+
+  The large array-like variables contain all information about a single icon
+  $icon-home: x y offset_x offset_y width height total_width total_height image_path
+
+  At the bottom of this section, we provide information about the spritesheet itself
+  $spritesheet: width height image $spritesheet-sprites
+  */
+$arrow-big-blue-left-name: 'arrow-big-blue-left'
+$arrow-big-blue-left-x: 10px
+$arrow-big-blue-left-y: 157px
+$arrow-big-blue-left-offset-x: -10px
+$arrow-big-blue-left-offset-y: -157px
+$arrow-big-blue-left-width: 10px
+$arrow-big-blue-left-height: 19px
+$arrow-big-blue-left-total-width: 317px
+$arrow-big-blue-left-total-height: 176px
+$arrow-big-blue-left-image: 'sprite.png'
+$arrow-big-blue-left: (10px, 157px, -10px, -157px, 10px, 19px, 317px, 176px, 'sprite.png', 'arrow-big-blue-left', )
+$arrow-big-blue-right-name: 'arrow-big-blue-right'
+$arrow-big-blue-right-x: 0px
+$arrow-big-blue-right-y: 157px
+$arrow-big-blue-right-offset-x: 0px
+$arrow-big-blue-right-offset-y: -157px
+$arrow-big-blue-right-width: 10px
+$arrow-big-blue-right-height: 19px
+$arrow-big-blue-right-total-width: 317px
+$arrow-big-blue-right-total-height: 176px
+$arrow-big-blue-right-image: 'sprite.png'
+$arrow-big-blue-right: (0px, 157px, 0px, -157px, 10px, 19px, 317px, 176px, 'sprite.png', 'arrow-big-blue-right', )
+$arrow-big-gray-left-name: 'arrow-big-gray-left'
+$arrow-big-gray-left-x: 268px
+$arrow-big-gray-left-y: 124px
+$arrow-big-gray-left-offset-x: -268px
+$arrow-big-gray-left-offset-y: -124px
+$arrow-big-gray-left-width: 9px
+$arrow-big-gray-left-height: 18px
+$arrow-big-gray-left-total-width: 317px
+$arrow-big-gray-left-total-height: 176px
+$arrow-big-gray-left-image: 'sprite.png'
+$arrow-big-gray-left: (268px, 124px, -268px, -124px, 9px, 18px, 317px, 176px, 'sprite.png', 'arrow-big-gray-left', )
+$arrow-big-gray-right-name: 'arrow-big-gray-right'
+$arrow-big-gray-right-x: 277px
+$arrow-big-gray-right-y: 124px
+$arrow-big-gray-right-offset-x: -277px
+$arrow-big-gray-right-offset-y: -124px
+$arrow-big-gray-right-width: 9px
+$arrow-big-gray-right-height: 18px
+$arrow-big-gray-right-total-width: 317px
+$arrow-big-gray-right-total-height: 176px
+$arrow-big-gray-right-image: 'sprite.png'
+$arrow-big-gray-right: (277px, 124px, -277px, -124px, 9px, 18px, 317px, 176px, 'sprite.png', 'arrow-big-gray-right', )
+$arrow-down-big-green-name: 'arrow-down-big-green'
+$arrow-down-big-green-x: 165px
+$arrow-down-big-green-y: 88px
+$arrow-down-big-green-offset-x: -165px
+$arrow-down-big-green-offset-y: -88px
+$arrow-down-big-green-width: 17px
+$arrow-down-big-green-height: 10px
+$arrow-down-big-green-total-width: 317px
+$arrow-down-big-green-total-height: 176px
+$arrow-down-big-green-image: 'sprite.png'
+$arrow-down-big-green: (165px, 88px, -165px, -88px, 17px, 10px, 317px, 176px, 'sprite.png', 'arrow-down-big-green', )
+$arrow-down-mini-green-name: 'arrow-down-mini-green'
+$arrow-down-mini-green-x: 202px
+$arrow-down-mini-green-y: 88px
+$arrow-down-mini-green-offset-x: -202px
+$arrow-down-mini-green-offset-y: -88px
+$arrow-down-mini-green-width: 11px
+$arrow-down-mini-green-height: 7px
+$arrow-down-mini-green-total-width: 317px
+$arrow-down-mini-green-total-height: 176px
+$arrow-down-mini-green-image: 'sprite.png'
+$arrow-down-mini-green: (202px, 88px, -202px, -88px, 11px, 7px, 317px, 176px, 'sprite.png', 'arrow-down-mini-green', )
+$arrow-down-mini-white-name: 'arrow-down-mini-white'
+$arrow-down-mini-white-x: 191px
+$arrow-down-mini-white-y: 88px
+$arrow-down-mini-white-offset-x: -191px
+$arrow-down-mini-white-offset-y: -88px
+$arrow-down-mini-white-width: 11px
+$arrow-down-mini-white-height: 7px
+$arrow-down-mini-white-total-width: 317px
+$arrow-down-mini-white-total-height: 176px
+$arrow-down-mini-white-image: 'sprite.png'
+$arrow-down-mini-white: (191px, 88px, -191px, -88px, 11px, 7px, 317px, 176px, 'sprite.png', 'arrow-down-mini-white', )
+$arrow-mini-right-name: 'arrow-mini-right'
+$arrow-mini-right-x: 312px
+$arrow-mini-right-y: 70px
+$arrow-mini-right-offset-x: -312px
+$arrow-mini-right-offset-y: -70px
+$arrow-mini-right-width: 5px
+$arrow-mini-right-height: 10px
+$arrow-mini-right-total-width: 317px
+$arrow-mini-right-total-height: 176px
+$arrow-mini-right-image: 'sprite.png'
+$arrow-mini-right: (312px, 70px, -312px, -70px, 5px, 10px, 317px, 176px, 'sprite.png', 'arrow-mini-right', )
+$checked-checkbox-name: 'checked-checkbox'
+$checked-checkbox-x: 149px
+$checked-checkbox-y: 124px
+$checked-checkbox-offset-x: -149px
+$checked-checkbox-offset-y: -124px
+$checked-checkbox-width: 22px
+$checked-checkbox-height: 22px
+$checked-checkbox-total-width: 317px
+$checked-checkbox-total-height: 176px
+$checked-checkbox-image: 'sprite.png'
+$checked-checkbox: (149px, 124px, -149px, -124px, 22px, 22px, 317px, 176px, 'sprite.png', 'checked-checkbox', )
+$checked-radio-name: 'checked-radio'
+$checked-radio-x: 171px
+$checked-radio-y: 124px
+$checked-radio-offset-x: -171px
+$checked-radio-offset-y: -124px
+$checked-radio-width: 20px
+$checked-radio-height: 20px
+$checked-radio-total-width: 317px
+$checked-radio-total-height: 176px
+$checked-radio-image: 'sprite.png'
+$checked-radio: (171px, 124px, -171px, -124px, 20px, 20px, 317px, 176px, 'sprite.png', 'checked-radio', )
+$clear-big-black-name: 'clear-big-black'
+$clear-big-black-x: 280px
+$clear-big-black-y: 100px
+$clear-big-black-offset-x: -280px
+$clear-big-black-offset-y: -100px
+$clear-big-black-width: 12px
+$clear-big-black-height: 13px
+$clear-big-black-total-width: 317px
+$clear-big-black-total-height: 176px
+$clear-big-black-image: 'sprite.png'
+$clear-big-black: (280px, 100px, -280px, -100px, 12px, 13px, 317px, 176px, 'sprite.png', 'clear-big-black', )
+$clear-mini-red-name: 'clear-mini-red'
+$clear-mini-red-x: 292px
+$clear-mini-red-y: 100px
+$clear-mini-red-offset-x: -292px
+$clear-mini-red-offset-y: -100px
+$clear-mini-red-width: 11px
+$clear-mini-red-height: 11px
+$clear-mini-red-total-width: 317px
+$clear-mini-red-total-height: 176px
+$clear-mini-red-image: 'sprite.png'
+$clear-mini-red: (292px, 100px, -292px, -100px, 11px, 11px, 317px, 176px, 'sprite.png', 'clear-mini-red', )
+$favourite-blue-name: 'favourite-blue'
+$favourite-blue-x: 116px
+$favourite-blue-y: 100px
+$favourite-blue-offset-x: -116px
+$favourite-blue-offset-y: -100px
+$favourite-blue-width: 25px
+$favourite-blue-height: 22px
+$favourite-blue-total-width: 317px
+$favourite-blue-total-height: 176px
+$favourite-blue-image: 'sprite.png'
+$favourite-blue: (116px, 100px, -116px, -100px, 25px, 22px, 317px, 176px, 'sprite.png', 'favourite-blue', )
+$favourite-yellow-o-name: 'favourite-yellow-o'
+$favourite-yellow-o-x: 66px
+$favourite-yellow-o-y: 100px
+$favourite-yellow-o-offset-x: -66px
+$favourite-yellow-o-offset-y: -100px
+$favourite-yellow-o-width: 25px
+$favourite-yellow-o-height: 22px
+$favourite-yellow-o-total-width: 317px
+$favourite-yellow-o-total-height: 176px
+$favourite-yellow-o-image: 'sprite.png'
+$favourite-yellow-o: (66px, 100px, -66px, -100px, 25px, 22px, 317px, 176px, 'sprite.png', 'favourite-yellow-o', )
+$favourite-yellow-name: 'favourite-yellow'
+$favourite-yellow-x: 91px
+$favourite-yellow-y: 100px
+$favourite-yellow-offset-x: -91px
+$favourite-yellow-offset-y: -100px
+$favourite-yellow-width: 25px
+$favourite-yellow-height: 22px
+$favourite-yellow-total-width: 317px
+$favourite-yellow-total-height: 176px
+$favourite-yellow-image: 'sprite.png'
+$favourite-yellow: (91px, 100px, -91px, -100px, 25px, 22px, 317px, 176px, 'sprite.png', 'favourite-yellow', )
+$icon-photos-black-name: 'icon-photos-black'
+$icon-photos-black-x: 244px
+$icon-photos-black-y: 100px
+$icon-photos-black-offset-x: -244px
+$icon-photos-black-offset-y: -100px
+$icon-photos-black-width: 18px
+$icon-photos-black-height: 14px
+$icon-photos-black-total-width: 317px
+$icon-photos-black-total-height: 176px
+$icon-photos-black-image: 'sprite.png'
+$icon-photos-black: (244px, 100px, -244px, -100px, 18px, 14px, 317px, 176px, 'sprite.png', 'icon-photos-black', )
+$icon-photos-white-name: 'icon-photos-white'
+$icon-photos-white-x: 166px
+$icon-photos-white-y: 100px
+$icon-photos-white-offset-x: -166px
+$icon-photos-white-offset-y: -100px
+$icon-photos-white-width: 24px
+$icon-photos-white-height: 19px
+$icon-photos-white-total-width: 317px
+$icon-photos-white-total-height: 176px
+$icon-photos-white-image: 'sprite.png'
+$icon-photos-white: (166px, 100px, -166px, -100px, 24px, 19px, 317px, 176px, 'sprite.png', 'icon-photos-white', )
+$list-black-name: 'list-black'
+$list-black-x: 213px
+$list-black-y: 70px
+$list-black-offset-x: -213px
+$list-black-offset-y: -70px
+$list-black-width: 20px
+$list-black-height: 18px
+$list-black-total-width: 317px
+$list-black-total-height: 176px
+$list-black-image: 'sprite.png'
+$list-black: (213px, 70px, -213px, -70px, 20px, 18px, 317px, 176px, 'sprite.png', 'list-black', )
+$list-gray-name: 'list-gray'
+$list-gray-x: 253px
+$list-gray-y: 70px
+$list-gray-offset-x: -253px
+$list-gray-offset-y: -70px
+$list-gray-width: 20px
+$list-gray-height: 18px
+$list-gray-total-width: 317px
+$list-gray-total-height: 176px
+$list-gray-image: 'sprite.png'
+$list-gray: (253px, 70px, -253px, -70px, 20px, 18px, 317px, 176px, 'sprite.png', 'list-gray', )
+$logo-name: 'logo'
+$logo-x: 147px
+$logo-y: 0px
+$logo-offset-x: -147px
+$logo-offset-y: 0px
+$logo-width: 170px
+$logo-height: 42px
+$logo-total-width: 317px
+$logo-total-height: 176px
+$logo-image: 'sprite.png'
+$logo: (147px, 0px, -147px, 0px, 170px, 42px, 317px, 176px, 'sprite.png', 'logo', )
+$other-chat-name: 'other-chat'
+$other-chat-x: 141px
+$other-chat-y: 100px
+$other-chat-offset-x: -141px
+$other-chat-offset-y: -100px
+$other-chat-width: 25px
+$other-chat-height: 20px
+$other-chat-total-width: 317px
+$other-chat-total-height: 176px
+$other-chat-image: 'sprite.png'
+$other-chat: (141px, 100px, -141px, -100px, 25px, 20px, 317px, 176px, 'sprite.png', 'other-chat', )
+$other-clock-name: 'other-clock'
+$other-clock-x: 209px
+$other-clock-y: 100px
+$other-clock-offset-x: -209px
+$other-clock-offset-y: -100px
+$other-clock-width: 18px
+$other-clock-height: 18px
+$other-clock-total-width: 317px
+$other-clock-total-height: 176px
+$other-clock-image: 'sprite.png'
+$other-clock: (209px, 100px, -209px, -100px, 18px, 18px, 317px, 176px, 'sprite.png', 'other-clock', )
+$other-eye-name: 'other-eye'
+$other-eye-x: 147px
+$other-eye-y: 88px
+$other-eye-offset-x: -147px
+$other-eye-offset-y: -88px
+$other-eye-width: 18px
+$other-eye-height: 11px
+$other-eye-total-width: 317px
+$other-eye-total-height: 176px
+$other-eye-image: 'sprite.png'
+$other-eye: (147px, 88px, -147px, -88px, 18px, 11px, 317px, 176px, 'sprite.png', 'other-eye', )
+$other-login-name: 'other-login'
+$other-login-x: 128px
+$other-login-y: 124px
+$other-login-offset-x: -128px
+$other-login-offset-y: -124px
+$other-login-width: 21px
+$other-login-height: 24px
+$other-login-total-width: 317px
+$other-login-total-height: 176px
+$other-login-image: 'sprite.png'
+$other-login: (128px, 124px, -128px, -124px, 21px, 24px, 317px, 176px, 'sprite.png', 'other-login', )
+$other-mail-name: 'other-mail'
+$other-mail-x: 262px
+$other-mail-y: 100px
+$other-mail-offset-x: -262px
+$other-mail-offset-y: -100px
+$other-mail-width: 18px
+$other-mail-height: 14px
+$other-mail-total-width: 317px
+$other-mail-total-height: 176px
+$other-mail-image: 'sprite.png'
+$other-mail: (262px, 100px, -262px, -100px, 18px, 14px, 317px, 176px, 'sprite.png', 'other-mail', )
+$other-pencil-name: 'other-pencil'
+$other-pencil-x: 191px
+$other-pencil-y: 124px
+$other-pencil-offset-x: -191px
+$other-pencil-offset-y: -124px
+$other-pencil-width: 20px
+$other-pencil-height: 20px
+$other-pencil-total-width: 317px
+$other-pencil-total-height: 176px
+$other-pencil-image: 'sprite.png'
+$other-pencil: (191px, 124px, -191px, -124px, 20px, 20px, 317px, 176px, 'sprite.png', 'other-pencil', )
+$other-print-name: 'other-print'
+$other-print-x: 273px
+$other-print-y: 70px
+$other-print-offset-x: -273px
+$other-print-offset-y: -70px
+$other-print-width: 20px
+$other-print-height: 18px
+$other-print-total-width: 317px
+$other-print-total-height: 176px
+$other-print-image: 'sprite.png'
+$other-print: (273px, 70px, -273px, -70px, 20px, 18px, 317px, 176px, 'sprite.png', 'other-print', )
+$other-settings-name: 'other-settings'
+$other-settings-x: 211px
+$other-settings-y: 124px
+$other-settings-offset-x: -211px
+$other-settings-offset-y: -124px
+$other-settings-width: 20px
+$other-settings-height: 20px
+$other-settings-total-width: 317px
+$other-settings-total-height: 176px
+$other-settings-image: 'sprite.png'
+$other-settings: (211px, 124px, -211px, -124px, 20px, 20px, 317px, 176px, 'sprite.png', 'other-settings', )
+$other-site-name: 'other-site'
+$other-site-x: 227px
+$other-site-y: 100px
+$other-site-offset-x: -227px
+$other-site-offset-y: -100px
+$other-site-width: 17px
+$other-site-height: 18px
+$other-site-total-width: 317px
+$other-site-total-height: 176px
+$other-site-image: 'sprite.png'
+$other-site: (227px, 100px, -227px, -100px, 17px, 18px, 317px, 176px, 'sprite.png', 'other-site', )
+$other-up-name: 'other-up'
+$other-up-x: 286px
+$other-up-y: 124px
+$other-up-offset-x: -286px
+$other-up-offset-y: -124px
+$other-up-width: 9px
+$other-up-height: 17px
+$other-up-total-width: 317px
+$other-up-total-height: 176px
+$other-up-image: 'sprite.png'
+$other-up: (286px, 124px, -286px, -124px, 9px, 17px, 317px, 176px, 'sprite.png', 'other-up', )
+$other-users-name: 'other-users'
+$other-users-x: 233px
+$other-users-y: 70px
+$other-users-offset-x: -233px
+$other-users-offset-y: -70px
+$other-users-width: 20px
+$other-users-height: 18px
+$other-users-total-width: 317px
+$other-users-total-height: 176px
+$other-users-image: 'sprite.png'
+$other-users: (233px, 70px, -233px, -70px, 20px, 18px, 317px, 176px, 'sprite.png', 'other-users', )
+$pay-mastercard-name: 'pay-mastercard'
+$pay-mastercard-x: 0px
+$pay-mastercard-y: 100px
+$pay-mastercard-offset-x: 0px
+$pay-mastercard-offset-y: -100px
+$pay-mastercard-width: 66px
+$pay-mastercard-height: 24px
+$pay-mastercard-total-width: 317px
+$pay-mastercard-total-height: 176px
+$pay-mastercard-image: 'sprite.png'
+$pay-mastercard: (0px, 100px, 0px, -100px, 66px, 24px, 317px, 176px, 'sprite.png', 'pay-mastercard', )
+$pay-opay-name: 'pay-opay'
+$pay-opay-x: 147px
+$pay-opay-y: 42px
+$pay-opay-offset-x: -147px
+$pay-opay-offset-y: -42px
+$pay-opay-width: 66px
+$pay-opay-height: 46px
+$pay-opay-total-width: 317px
+$pay-opay-total-height: 176px
+$pay-opay-image: 'sprite.png'
+$pay-opay: (147px, 42px, -147px, -42px, 66px, 46px, 317px, 176px, 'sprite.png', 'pay-opay', )
+$pay-visa-name: 'pay-visa'
+$pay-visa-x: 213px
+$pay-visa-y: 42px
+$pay-visa-offset-x: -213px
+$pay-visa-offset-y: -42px
+$pay-visa-width: 63px
+$pay-visa-height: 28px
+$pay-visa-total-width: 317px
+$pay-visa-total-height: 176px
+$pay-visa-image: 'sprite.png'
+$pay-visa: (213px, 42px, -213px, -42px, 63px, 28px, 317px, 176px, 'sprite.png', 'pay-visa', )
+$phone-black-name: 'phone-black'
+$phone-black-x: 293px
+$phone-black-y: 70px
+$phone-black-offset-x: -293px
+$phone-black-offset-y: -70px
+$phone-black-width: 19px
+$phone-black-height: 18px
+$phone-black-total-width: 317px
+$phone-black-total-height: 176px
+$phone-black-image: 'sprite.png'
+$phone-black: (293px, 70px, -293px, -70px, 19px, 18px, 317px, 176px, 'sprite.png', 'phone-black', )
+$phone-blue-name: 'phone-blue'
+$phone-blue-x: 276px
+$phone-blue-y: 42px
+$phone-blue-offset-x: -276px
+$phone-blue-offset-y: -42px
+$phone-blue-width: 25px
+$phone-blue-height: 24px
+$phone-blue-total-width: 317px
+$phone-blue-total-height: 176px
+$phone-blue-image: 'sprite.png'
+$phone-blue: (276px, 42px, -276px, -42px, 25px, 24px, 317px, 176px, 'sprite.png', 'phone-blue', )
+$phone-green-name: 'phone-green'
+$phone-green-x: 190px
+$phone-green-y: 100px
+$phone-green-offset-x: -190px
+$phone-green-offset-y: -100px
+$phone-green-width: 19px
+$phone-green-height: 18px
+$phone-green-total-width: 317px
+$phone-green-total-height: 176px
+$phone-green-image: 'sprite.png'
+$phone-green: (190px, 100px, -190px, -100px, 19px, 18px, 317px, 176px, 'sprite.png', 'phone-green', )
+$placeholder-v1-name: 'placeholder-v1'
+$placeholder-v1-x: 301px
+$placeholder-v1-y: 42px
+$placeholder-v1-offset-x: -301px
+$placeholder-v1-offset-y: -42px
+$placeholder-v1-width: 16px
+$placeholder-v1-height: 22px
+$placeholder-v1-total-width: 317px
+$placeholder-v1-total-height: 176px
+$placeholder-v1-image: 'sprite.png'
+$placeholder-v1: (301px, 42px, -301px, -42px, 16px, 22px, 317px, 176px, 'sprite.png', 'placeholder-v1', )
+$placeholder-v2-name: 'placeholder-v2'
+$placeholder-v2-x: 231px
+$placeholder-v2-y: 124px
+$placeholder-v2-offset-x: -231px
+$placeholder-v2-offset-y: -124px
+$placeholder-v2-width: 13px
+$placeholder-v2-height: 20px
+$placeholder-v2-total-width: 317px
+$placeholder-v2-total-height: 176px
+$placeholder-v2-image: 'sprite.png'
+$placeholder-v2: (231px, 124px, -231px, -124px, 13px, 20px, 317px, 176px, 'sprite.png', 'placeholder-v2', )
+$placeholder-v3-name: 'placeholder-v3'
+$placeholder-v3-x: 244px
+$placeholder-v3-y: 124px
+$placeholder-v3-offset-x: -244px
+$placeholder-v3-offset-y: -124px
+$placeholder-v3-width: 12px
+$placeholder-v3-height: 18px
+$placeholder-v3-total-width: 317px
+$placeholder-v3-total-height: 176px
+$placeholder-v3-image: 'sprite.png'
+$placeholder-v3: (244px, 124px, -244px, -124px, 12px, 18px, 317px, 176px, 'sprite.png', 'placeholder-v3', )
+$placeholder-v4-name: 'placeholder-v4'
+$placeholder-v4-x: 256px
+$placeholder-v4-y: 124px
+$placeholder-v4-offset-x: -256px
+$placeholder-v4-offset-y: -124px
+$placeholder-v4-width: 12px
+$placeholder-v4-height: 18px
+$placeholder-v4-total-width: 317px
+$placeholder-v4-total-height: 176px
+$placeholder-v4-image: 'sprite.png'
+$placeholder-v4: (256px, 124px, -256px, -124px, 12px, 18px, 317px, 176px, 'sprite.png', 'placeholder-v4', )
+$social-fb-name: 'social-fb'
+$social-fb-x: 0px
+$social-fb-y: 124px
+$social-fb-offset-x: 0px
+$social-fb-offset-y: -124px
+$social-fb-width: 32px
+$social-fb-height: 33px
+$social-fb-total-width: 317px
+$social-fb-total-height: 176px
+$social-fb-image: 'sprite.png'
+$social-fb: (0px, 124px, 0px, -124px, 32px, 33px, 317px, 176px, 'sprite.png', 'social-fb', )
+$social-ok-name: 'social-ok'
+$social-ok-x: 64px
+$social-ok-y: 124px
+$social-ok-offset-x: -64px
+$social-ok-offset-y: -124px
+$social-ok-width: 32px
+$social-ok-height: 33px
+$social-ok-total-width: 317px
+$social-ok-total-height: 176px
+$social-ok-image: 'sprite.png'
+$social-ok: (64px, 124px, -64px, -124px, 32px, 33px, 317px, 176px, 'sprite.png', 'social-ok', )
+$social-tw-name: 'social-tw'
+$social-tw-x: 96px
+$social-tw-y: 124px
+$social-tw-offset-x: -96px
+$social-tw-offset-y: -124px
+$social-tw-width: 32px
+$social-tw-height: 33px
+$social-tw-total-width: 317px
+$social-tw-total-height: 176px
+$social-tw-image: 'sprite.png'
+$social-tw: (96px, 124px, -96px, -124px, 32px, 33px, 317px, 176px, 'sprite.png', 'social-tw', )
+$social-vk-name: 'social-vk'
+$social-vk-x: 32px
+$social-vk-y: 124px
+$social-vk-offset-x: -32px
+$social-vk-offset-y: -124px
+$social-vk-width: 32px
+$social-vk-height: 33px
+$social-vk-total-width: 317px
+$social-vk-total-height: 176px
+$social-vk-image: 'sprite.png'
+$social-vk: (32px, 124px, -32px, -124px, 32px, 33px, 317px, 176px, 'sprite.png', 'social-vk', )
+$store-app-store-name: 'store-app-store'
+$store-app-store-x: 0px
+$store-app-store-y: 0px
+$store-app-store-offset-x: 0px
+$store-app-store-offset-y: 0px
+$store-app-store-width: 147px
+$store-app-store-height: 50px
+$store-app-store-total-width: 317px
+$store-app-store-total-height: 176px
+$store-app-store-image: 'sprite.png'
+$store-app-store: (0px, 0px, 0px, 0px, 147px, 50px, 317px, 176px, 'sprite.png', 'store-app-store', )
+$store-google-play-name: 'store-google-play'
+$store-google-play-x: 0px
+$store-google-play-y: 50px
+$store-google-play-offset-x: 0px
+$store-google-play-offset-y: -50px
+$store-google-play-width: 147px
+$store-google-play-height: 50px
+$store-google-play-total-width: 317px
+$store-google-play-total-height: 176px
+$store-google-play-image: 'sprite.png'
+$store-google-play: (0px, 50px, 0px, -50px, 147px, 50px, 317px, 176px, 'sprite.png', 'store-google-play', )
+$tenge-black-name: 'tenge-black'
+$tenge-black-x: 182px
+$tenge-black-y: 88px
+$tenge-black-offset-x: -182px
+$tenge-black-offset-y: -88px
+$tenge-black-width: 9px
+$tenge-black-height: 9px
+$tenge-black-total-width: 317px
+$tenge-black-total-height: 176px
+$tenge-black-image: 'sprite.png'
+$tenge-black: (182px, 88px, -182px, -88px, 9px, 9px, 317px, 176px, 'sprite.png', 'tenge-black', )
+$tenge-green-name: 'tenge-green'
+$tenge-green-x: 303px
+$tenge-green-y: 100px
+$tenge-green-offset-x: -303px
+$tenge-green-offset-y: -100px
+$tenge-green-width: 9px
+$tenge-green-height: 11px
+$tenge-green-total-width: 317px
+$tenge-green-total-height: 176px
+$tenge-green-image: 'sprite.png'
+$tenge-green: (303px, 100px, -303px, -100px, 9px, 11px, 317px, 176px, 'sprite.png', 'tenge-green', )
+$spritesheet-width: 317px
+$spritesheet-height: 176px
+$spritesheet-image: 'sprite.png'
+$spritesheet-sprites: ($arrow-big-blue-left, $arrow-big-blue-right, $arrow-big-gray-left, $arrow-big-gray-right, $arrow-down-big-green, $arrow-down-mini-green, $arrow-down-mini-white, $arrow-mini-right, $checked-checkbox, $checked-radio, $clear-big-black, $clear-mini-red, $favourite-blue, $favourite-yellow-o, $favourite-yellow, $icon-photos-black, $icon-photos-white, $list-black, $list-gray, $logo, $other-chat, $other-clock, $other-eye, $other-login, $other-mail, $other-pencil, $other-print, $other-settings, $other-site, $other-up, $other-users, $pay-mastercard, $pay-opay, $pay-visa, $phone-black, $phone-blue, $phone-green, $placeholder-v1, $placeholder-v2, $placeholder-v3, $placeholder-v4, $social-fb, $social-ok, $social-tw, $social-vk, $store-app-store, $store-google-play, $tenge-black, $tenge-green, )
+$spritesheet: (317px, 176px, 'sprite.png', $spritesheet-sprites, )
+
+/*
+  The provided mixins are intended to be used with the array-like variables
+
+  .icon-home
+    @include sprite-width($icon-home)
+
+  .icon-email
+    @include sprite($icon-email)
+
+  Example usage in HTML:
+    `display: block` sprite:
+    <div class="icon-home"></div>
+
+  To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+    // CSS
+    .icon {
+      display: inline-block;
+    }
+
+    // HTML
+    <i class="icon icon-home"></i>
+  */
+@mixin sprite-width($sprite)
+  width: nth($sprite, 5)
+
+@mixin sprite-height($sprite)
+  height: nth($sprite, 6)
+
+@mixin sprite-position($sprite)
+  $sprite-offset-x: nth($sprite, 3)
+  $sprite-offset-y: nth($sprite, 4)
+  background-position: $sprite-offset-x  $sprite-offset-y
+
+@mixin sprite-image($sprite)
+  $sprite-image: nth($sprite, 9)
+  background-image: url(#{$sprite-image})
+
+@mixin sprite($sprite)
+  @include sprite-image($sprite)
+  @include sprite-position($sprite)
+  @include sprite-width($sprite)
+  @include sprite-height($sprite)
+
+/*
+  The `sprites` mixin generates identical output to the CSS template
+    but can be overridden inside of SASS
+
+  @include sprites($spritesheet-sprites)
+  */
+@mixin sprites($sprites)
+  @each $sprite in $sprites
+    $sprite-name: nth($sprite, 10)
+    .#{$sprite-name}
+      @include sprite($sprite)
